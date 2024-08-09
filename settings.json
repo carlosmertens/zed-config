@@ -1,0 +1,68 @@
+{
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+  "tab_size": 2,
+  "theme": {
+    "mode": "system",
+    "light": "Warp One Dark",
+    "dark": "Warp One Dark"
+  },
+  "experimental.theme_overrides": {
+    "tab_bar.background": "#2d2d30",
+    "tab.inactive_background": "#2d2d30",
+    "status_bar.background": "#007acc",
+    "editor.background": "#1e1e1e",
+    "editor.gutter.background": "#1e1e1e",
+    "panel.background": "#252526",
+    "tab.active_background": "#1e1e1e",
+    "toolbar.background": "#1e1e1e",
+    "title_bar.background": "#3e3e42",
+    "terminal.background": "#1e1e1e",
+    "terminal.ansi.blue": "#007acc",
+    "terminal.ansi.green": "#67f61a",
+    "syntax": {
+      "attribute": { "color": "#9CDCFE" },
+      "editor.foreground": { "color": "#fff555" },
+      "boolean": { "color": "#4EC9B0" },
+      "comment": { "color": "#6A9955" },
+      "comment.doc": { "color": "#fff555" },
+      "constant": { "color": "#4EC9B0" },
+      "constructor": { "color": "#fff555" },
+      "embedded": { "color": "#fff55" },
+      "emphasis": { "color": "#fff555" },
+      "emphasis.strong": { "color": "#fff555" },
+      "enum": { "color": "#fff555" },
+      "function": { "color": "#f5f5f5" },
+      "function.method": { "color": "#569CD6" },
+      "keyword": { "color": "#569CD6" },
+      "link_uri": { "color": "#8be9fdff" },
+      "number": { "color": "#4EC9B0" },
+      "operator": { "color": "#ac78bd" },
+      "property": { "color": "#9CDCFE" },
+      "punctuation.bracket": { "color": "#939293" },
+      "string": { "color": "#CE9178" },
+      "tag": { "color": "#569CD6" },
+      "type": { "color": "#4EC9B0" },
+      "type.builtin": { "color": "#4EC9B0" },
+      "variable": { "color": "#9CDCFE" }
+    }
+  },
+  "autosave": "on_window_change",
+  "terminal": {
+    "line_height": {
+      "custom": 1.2
+    },
+    "blinking": "on",
+    "copy_on_select": true,
+    "font_size": 15,
+    "font_family": "Hack Nerd Font"
+  },
+  "scrollbar": {
+    "show": "never"
+  },
+  "project_panel": {
+    "scrollbar": {
+      "show": "never"
+    }
+  }
+}
