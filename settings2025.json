@@ -1,0 +1,102 @@
+{
+  "icon_theme": "VSCode Icons (Light)",
+  "buffer_font_size": 13.0,
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-7-sonnet-latest"
+    },
+    "version": "2"
+  },
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "buffer_font_family": "Hack Nerd Font",
+  "theme": "Ayu Dark",
+  "autosave": "on_focus_change",
+  "tabs": {
+    "git_status": true,
+    "file_icons": true
+  },
+  "tab_size": 2,
+  "project_panel": {
+    "scrollbar": {
+      "show": "never"
+    }
+  },
+  "scrollbar": {
+    "show": "system",
+    "cursors": false,
+    "git_diff": false,
+    "search_results": false,
+    "selected_symbol": false,
+    "diagnostics": "all"
+  },
+  "terminal": {
+    "line_height": {
+      "custom": 1.2
+    },
+    "cursor_shape": "underline",
+    "blinking": "on",
+    "copy_on_select": true,
+    "font_size": 15,
+    "font_family": "Hack Nerd Font"
+  },
+  "lsp": {
+    "eslint": {
+      "settings": {
+        "rulesCustomizations": [
+          {
+            "rule": "*",
+            "severity": "downgrade"
+          },
+          {
+            "rule": "space-before-function-paren",
+            "severity": "off"
+          },
+          {
+            "rule": "curly",
+            "severity": "off"
+          }
+        ]
+      }
+    }
+  },
+  "languages": {
+    "YAML": {
+      "formatter": "language_server"
+    }
+  },
+  "experimental.theme_overrides": {
+    "status_bar.background": "#007acc",
+    "terminal.ansi.blue": "#007acc",
+    "terminal.ansi.green": "#19d015",
+    "terminal.ansi.black": "#242959",
+    "syntax": {
+      "attribute": { "color": "#9CDCFE" },
+      "editor.foreground": { "color": "#fff555" },
+      "boolean": { "color": "#4EC9B0" },
+      "comment": { "color": "#6A9955" },
+      "comment.doc": { "color": "#fff555" },
+      "constant": { "color": "#4EC9B0" },
+      "constructor": { "color": "#fff555" },
+      "embedded": { "color": "#fff55" },
+      "emphasis": { "color": "#fff555" },
+      "emphasis.strong": { "color": "#fff555" },
+      "enum": { "color": "#fff555" },
+      "function": { "color": "#f5f5f5" },
+      "function.method": { "color": "#569CD6" },
+      "keyword": { "color": "#569CD6" },
+      "link_uri": { "color": "#8be9fdff" },
+      "number": { "color": "#4EC9B0" },
+      "operator": { "color": "#ac78bd" },
+      "property": { "color": "#9CDCFE" },
+      "punctuation.bracket": { "color": "#939293" },
+      "string": { "color": "#CE9178" },
+      "tag": { "color": "#569CD6" },
+      "type": { "color": "#4EC9B0" },
+      "type.builtin": { "color": "#4EC9B0" },
+      "variable": { "color": "#9CDCFE" }
+    }
+  }
+}
